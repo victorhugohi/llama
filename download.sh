@@ -1,9 +1,7 @@
-#!/bin/bash
-
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
 
-read -p "Enter the URL from email: " PRESIGNED_URL
+read -p "Enter the URL from email: " https://download.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Rvd25sb2FkLmxsYW1hbWV0YS5uZXRcLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODk3OTkzNzd9fX1dfQ__&Signature=DS6Qqkuf7vogpCCuXbS3mNgdcVrcFH5ClBSHdovy7ORXdM5-hC3of7bNkkbTkXpz-qu8BH3MWqdYu8HN9sUyRb20jjMmj%7EX837cCa7nSE8iaU2TLj%7EdYgvOda0r-Q6VoJgVSphZ20jkuTDB2rpH0zEiWsnSC6x4yfe%7E6PTCuUNjbdcm-rKpb%7E7Hm0bMgoz5dQzbhCsrsIAMNdfuwgZEee3PAFDgJ1hJDvSSDLCkf1lzui03Ym0nBoaJ6BkQM68BrTOwW6Z3mRoRNxRZeoG6vGVJ1DJvDYDx6qcX7HWEdMEtWhdFAhNTolh8szQWTWrKSy4WBjNji1Mk13adJZbbidQ__&Key-Pair-Id=K15QRJLYKIFSLZ
 echo ""
 read -p "Enter the list of models to download without spaces (7B,13B,70B,7B-chat,13B-chat,70B-chat), or press Enter for all: " MODEL_SIZE
 TARGET_FOLDER="."             # where all files should end up
